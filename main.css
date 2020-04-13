@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Baloo Paaji 2", sans-serif, cursive;
+  background: linear-gradient(
+    to right bottom,
+    #c1292e,
+    rgba(193, 41, 46, 0.9),
+    rgba(193, 41, 46, 0.75)
+  );
+}
+.container-center {
+  position: relative;
+  height: 100vh;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: linear-gradient(
+    to left top,
+    rgba(7, 2, 13, 0.9),
+    rgba(7, 2, 13, 0.8),
+    #07020d
+  );
+  padding: 0 1rem;
+}
+.h1 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding: 0 0.5rem;
+}
+.customer-name,
+.customer-review {
+  color: rgba(193, 41, 46, 0.75);
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.customer-img {
+ width: 12.5rem;
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+.customer {
+  position: relative;
+}
+.btn-container {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.left,
+.right {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #fff;
+}
+.left {
+ left: 0;
+}
+.right {
+  right: 0;
+}
